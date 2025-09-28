@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_galonsoma_Golang_CICD_Pipeline_1759083877944-pr-trigger-input-set
+  identifier: Build_galonsoma_Golang_CICD_Pipeline_1759083877944prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_galonsoma_Golang_CICD_Pipeline_1759083877944
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
