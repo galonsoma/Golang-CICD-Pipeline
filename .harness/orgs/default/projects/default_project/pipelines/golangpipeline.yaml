@@ -8,8 +8,9 @@ pipeline:
     ci:
       codebase:
         connectorRef: account.Github
-        repoName: https://github.com/galonsoma/Golang-CICD-Pipeline.git
+        repoName: galonsoma/Golang-CICD-Pipeline.git
         build: <+input>
+        sparseCheckout: []
   stages:
     - stage:
         name: build
